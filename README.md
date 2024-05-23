@@ -21,7 +21,7 @@ Link to original repository [DocRes](https://github.com/zzzhang-jx/docres)
 If you want to use your own images
 1. Follow the first 5 steps of the Instructions
 2. Place your images in `./input/`
-3. Run `create_docker.bat` and wait about 15 min
+3. Run `create_docker.bat` and wait about 5-15 min
 4. At the command line, forward to your folder and enter
 ```bash
 
@@ -39,4 +39,5 @@ run_docker.bat ./input/your_image task true ./folder/your_image1 ./folder/your_i
 - `fifth argument`: path to the second image we want to compare
 
 In Docker, all output goes to the `./restorted/` folder. If you want to compare a picture with a picture that is displayed in it, then their names are usually formed as `your_image_task` and the format of the input image.
+
 
