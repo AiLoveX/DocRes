@@ -7,7 +7,6 @@ Link to original repository [DocRes](https://github.com/zzzhang-jx/docres)
 
 ## Instructions 
 1. Clone repository
-1. Clone repository
 ```shell script
   git clone https://github.com/AiLoveX/DocRes.git
 ```
