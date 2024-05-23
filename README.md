@@ -7,14 +7,15 @@ Link to original repository [DocRes](https://github.com/zzzhang-jx/docres)
 1. Clone repository
 2. Put MBD model weights [mbd.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./data/MBD/checkpoint/`
 3. Put DocRes model weights [docres.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./checkpoints/`
-4. Launch Docker Desktop
-5. Run create_docker.bat and wait about 15 min
-6. Run run_docker.bat for default parameters
-7. Check the result in "docker_output" folder
+4. Create folder `./docker_output/`
+5. Launch Docker Desktop
+6. Run create_docker.bat and wait about 15 min
+7. Run run_docker.bat for default parameters
+8. Check the result in "docker_output" folder
 
 ## For your images 
 If you want to use your own images
-1. Follow the first 4 steps of the Instructions
+1. Follow the first 5 steps of the Instructions
 2. Place your images in `./input/`
 3. Run create_docker.bat and wait about 15 min
 4. At the command line, forward to your folder and enter
