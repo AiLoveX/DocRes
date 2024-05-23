@@ -10,8 +10,8 @@ Link to original repository [DocRes](https://github.com/zzzhang-jx/docres)
 ```shell script
   git clone https://github.com/AiLoveX/DocRes.git
 ```
-2. Put MBD model weights [mbd.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./data/MBD/checkpoint/`
-3. Put DocRes model weights [docres.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./checkpoints/`
+2. Put MBD model weights [mbd.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./data/MBD/checkpoint/` !You will need to create folders!
+3. Put DocRes model weights [docres.pkl](https://1drv.ms/f/s!Ak15mSdV3Wy4iahoKckhDPVP5e2Czw?e=iClwdK) to `./checkpoints/` !You will need to create folders!
 4. Launch Docker Desktop
 5. Run `create_docker.bat` and wait about 5-15 min
 6. Run `run_docker.bat` for default parameters
